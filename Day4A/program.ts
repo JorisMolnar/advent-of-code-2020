@@ -22,9 +22,9 @@ export class Program {
   }
 
   private calcResult(input: string): number {
-    const passwords = this.parseInput(input);
+    const passports = this.parseInput(input);
 
-    const valid = passwords.filter(this.checkValid);
+    const valid = passports.filter(this.checkValid);
 
     return valid.length;
   }
