@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2019",
+        "jsx": "preserve",
+        "outDir": "out",
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitAny": true
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
