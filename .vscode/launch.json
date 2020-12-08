@@ -283,6 +283,62 @@
                 "${workspaceFolder}/**/*.js"
             ],
             "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day11A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\Day11A\\app.ts",
+            "preLaunchTask": "tsc: build - Day11A/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day11B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\Day11B\\app.ts",
+            "preLaunchTask": "tsc: build - Day11B/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day12A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\Day12A\\app.ts",
+            "preLaunchTask": "tsc: build - Day12A/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day12B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\Day12B\\app.ts",
+            "preLaunchTask": "tsc: build - Day12B/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
         }
     ]
 }
