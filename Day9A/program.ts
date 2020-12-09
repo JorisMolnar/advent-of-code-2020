@@ -30,7 +30,7 @@ export class Program {
   private isNumberValid(number: number, checkValues: number[]): boolean {
     for (let i = 0; i < checkValues.length; i++) {
       for (let j = 0; j < checkValues.length; j++) {
-        if (i === j) break;
+        if (i === j) break; // break can be used (instead of continue) because we only need to sum the two values once
 
         if (number === checkValues[i] + checkValues[j]) {
           return true;
