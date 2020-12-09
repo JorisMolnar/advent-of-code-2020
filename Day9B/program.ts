@@ -31,7 +31,7 @@ export class Program {
       }
     }
 
-    throw new Error("No wrong numbers found");
+    throw new Error("No solution found");
   }
 
   private parseInput(input: string): number[] {
